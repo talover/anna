@@ -982,7 +982,8 @@ body {
   text-align: center;
 }
 .btn_big {
-  display: inline-block;
+  display: table;
+  width: 100%;
   text-decoration: none;
   position: relative;
   color: #fff;
@@ -994,11 +995,12 @@ body {
   letter-spacing: 0.6px;
 }
 .btn_big .dashed {
-  display: block;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 100px;
   border: 1px dashed #4d4d4d;
   width: 100%;
   height: 100%;
-  padding: 12px 43px 12px 95px;
 }
 .btn_big .dashed .rotated {
   position: absolute;
