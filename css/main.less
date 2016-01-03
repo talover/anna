@@ -190,7 +190,7 @@ body {
 	.female,
 	.male {
 		float: left;
-		width: 445px;
+		width: 440px;
 		height: 288px;	
 		color: #000;	
 	}
@@ -213,13 +213,17 @@ body {
 				padding: 0;
 				text-decoration: none;
 				text-transform: uppercase;
-				position: relative;				
+				position: relative;	
+				letter-spacing: 0.7px;			
 
 				&:before {
 						display: block;
 						position: absolute;
 						content: "\e90c";
 						font-family: 'icomoon';
+				    font-size: 8px;
+				    top: 50%;
+				    margin-top: -4px;
 						left: -20px;
 						opacity: 0;
 						.transition(.4s all ease);
