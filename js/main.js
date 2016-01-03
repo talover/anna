@@ -9,11 +9,18 @@ $(document).ready(function() {
 	$('#overlay').click(function(){
 		$('#overlay').fadeOut();
 		$('.main-nav').removeClass('active');
+		$('#header .main-container .f-right').removeClass("active")
+	});
+
+	$('.back_btn').click(function(){
+		$('#overlay').fadeOut();
+		$('.main-nav').removeClass('active');
+		$('#header .main-container .f-right').removeClass("active")
 	});
 
 	$('#btn-phone').click(function(e){
 		e.preventDefault();
-
-		$('.phone-num').toggleClass("active")
+		$('#overlay').fadeIn();
+		$('#header .phone-block').toggleClass("active")
 	});
 });
