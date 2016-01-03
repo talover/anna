@@ -1,0 +1,98 @@
+.test-content {
+	padding: 43px 0;
+
+	.main-title,
+	.sub-title,
+	.small-title {
+		text-align: center;
+		padding: 25px 0 40px 0;
+
+		&:after {
+			display: block;
+			content: "\e902";
+			font-family: "icomoon";
+		    font-size: 33px;
+		    color: #000;
+		    position: absolute;
+		    bottom: -10px;
+		    left: 50%;
+		    margin-left: -18px;
+		}
+	}
+
+	.text-block {
+		padding: 60px 0 63px 0;
+		line-height: 26px;
+		border-bottom: 1px dashed #000;
+		margin-bottom: 75px;
+
+		.small-text {
+			font-size: 13px;
+			line-height: 24px;
+			padding-top: 20px;
+		}
+	}
+
+	.btn_big {margin-left: 60px;}
+}
+
+.buttons-wrap {
+	background: fade(#000, 50%);
+	text-align: center;
+	margin-top: -143px;
+	padding: 10px;
+
+
+	.prev,
+	.next {
+		display: inline-block;		
+		padding: 16px 30px 15px 30px;
+		background: fade(#000, 15%);
+		color: #fff;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 1.1px;
+		.center();
+		margin-top: 10px;
+		margin-bottom: 10px;
+		.transition(.3s all ease);
+		cursor: pointer;		
+
+		span {
+			display: inline-block;
+			font-size: 19px;
+			vertical-align: middle;
+			margin:0 14px;
+		}
+
+		&:hover {background: #000;}
+	}
+
+	.pagination {
+		display: block;
+		.center();
+		color: #fff;		
+
+		span {
+
+			i {
+				opacity: 0.3;
+				.transition(.3s all ease);
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+
+			&.active {
+				i {
+					opacity: 1;
+
+					&:before {
+						content: "\e90c" !important;					
+					}
+				}				
+			}
+		}
+	}
+}
