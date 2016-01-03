@@ -1,0 +1,51 @@
+.btn {
+	display: inline-block;
+	text-decoration: none;	
+	.transition (.3s all ease);
+}
+
+.aplication-white {
+	background: #fff;
+	color: #000;
+	position: relative;
+	z-index: 1;	
+	padding: 13px 19px;
+  	font-size: 11px;
+  	text-transform: uppercase;
+  	letter-spacing: 0.7px;
+
+	&:after, &:before {		
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		z-index: -1;
+		.transition (.3s all ease);
+	}
+
+	&:after {
+		bottom: 0;
+		border-color: transparent;
+		border-bottom-color: #fff;
+		border-width: 10px;
+		margin-left: -10px;
+	}
+
+	&:before {
+		top: 0;
+		border-color: transparent;
+		border-top-color: #fff;
+		border-width: 10px;
+		margin-left: -10px;
+	}
+
+	&:hover {
+		&:after {bottom: 100%;}
+		&:before {top: 100%;}
+	}
+
+	@media (max-width:1460px) {display: none;}
+}
