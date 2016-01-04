@@ -28,11 +28,10 @@
   }
 
   .phone-block {
-    @media (max-width:992px){
-      min-height: 100%;
+    @media (max-width:992px){      
       background: #000;
       padding-top: 71px;
-      width: 130px;
+      width: 140px;
       position: absolute;
       right: 0;
       overflow: hidden;
@@ -54,7 +53,6 @@
   height: 100%;
   display: inline-block;
   vertical-align: top;
-
 
   > ul {
     padding: 0 0 0 60px;
@@ -85,6 +83,25 @@
         }
       }
 
+      .dropdown-btn {
+        display: none;
+        padding: 25px 25px 20px 25px;          
+        font-size: 20px;
+        font-family: 'icomoon';
+        float: right;
+        cursor: pointer;
+
+        &:before {
+          content: "\e910";
+        }
+
+        &.active {
+          &:before {
+            content: "\e911";
+          }
+        }
+      }
+
       &:hover {
         background: #fff;
         color: #000;
@@ -110,7 +127,7 @@
   display: none;
   left: 0;
   top: 100%;
-  z-index: 10;
+  z-index: 100;
   .transition(.3s all ease);
 
   .female,
@@ -163,6 +180,18 @@
       }
     }
   }
+
+  @media(max-width:1230px) {
+    width: 700px;
+
+    .female,
+    .male {
+      width: 350px;
+      height: auto;
+
+      .inner-nav-list {width: 175px;}
+    }
+  }
 }
 
 .phone-num {
@@ -180,11 +209,10 @@
     padding-top: 0;
   }
 
-  @media (max-width:600px) {
-    font-size: 10px;
-    padding: 27px 0 0 0;
+  @media (max-width:600px) {    
+    padding: 27px 20px 0 0;
     top: 40px;
-    width: 80px;
+    width: 120px;
   }
 }
 
@@ -214,7 +242,9 @@
 
 @media(max-width:992px) {
   .main-nav {
-    width: 200px;
+    display: block;
+    height: auto;
+    width: 250px;
     top:0;
     left: 0;
     background: #000;
@@ -222,33 +252,46 @@
     position: absolute;
     .translate(-100%,0);
     .transition(0.3s all ease);
-    z-index:1000;
+    z-index:1001;
 
     &.active {.translate(0,0);}
     
     > ul {
       padding: 0;
       background: #000;
+
       li {
         float:none;
         display: block;
         padding-left: 15px;
 
-        .dropdown {
-          width: 440px;
-          left: 100%;
-          top: 0;
-
-          @media(max-width:600px) {
-            width: 200px;
-
-            .male,
-            .female {
-              width: 200px;
-              height: auto;
-            }
-          }
+        a {
+          font-size: 11px;
+          display: inline-block;
+          vertical-align: middle;
         }
+
+        .dropdown-btn {display: inline-block;}
+
+        .dropdown {
+          width: 250px;
+          left: 100%;
+          top: 100%; 
+          left: -15px; 
+          position: relative;    
+
+          .male,
+          .female {
+            width: 250px;
+            height: auto;
+
+            .inner-nav-list {width: 250px;}
+          }          
+        }
+
+        &:hover {
+          .dropdown {display: none;}
+        }        
       }
     }
   }
