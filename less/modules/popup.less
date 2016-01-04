@@ -1,0 +1,40 @@
+#popup {
+	width: 410px;
+}
+
+.fancybox-skin {background: #000 !important;}
+
+.fancybox-close {
+	.square(30px);
+	background: #000;
+	text-decoration: none;
+	color: #fff;
+	.rotate(45deg);
+	top: -38px !important;
+    right: -48px !important;
+
+	&:before {
+		content: "\e912";
+		display: block;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-top: -14px;
+		margin-left: -11px;
+		font-size: 22px;
+		font-family: 'icomoon';
+	}
+}
+
+@media(max-width:600px){
+	#popup {
+		width: 220px !important;
+
+		.form {width: 200px;}
+	}
+
+	.fancybox-close {
+		right: -18px !important;
+		top: -42px !important;
+	}
+}

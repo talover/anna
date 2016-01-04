@@ -1,0 +1,60 @@
+.drop-list {
+	padding:15px 0;
+	margin: 0;
+	background: #000;
+
+	li {
+		display: block;
+		list-style: none;
+		padding: 15px 30px;		
+		position: relative;
+		color: #fff;
+
+		.full-text,
+		.preview-text {	
+			margin: 0;		
+			border: 1px dashed #4d4d4d;
+			background: #000;			
+			font-size: 13px;
+			font-family: @fontItalic;
+			padding: 10px 30px 10px 20px;
+			position: relative;
+			line-height: 22px;
+
+			&.active {display: none;}		
+		}
+
+		.full-text {
+			display: none;
+			background: #fff;
+			color: #000;
+		}
+
+		.toggle_btn {			
+			position: absolute;
+			height: 100%;
+			width: 40px;
+			top: 0;
+			right: 0;
+			cursor: pointer;
+
+			&:after {
+				content: "\e910";
+				color: inherit;
+				font-family: 'icomoon';
+				font-size: 16px;
+				font-style: normal;
+				margin-top: -13px;
+				margin-left: -8px;
+				position: absolute;
+				top: 50%;
+				right: 50%;
+			}
+
+			&.active {
+				&:after {content: "\e911"}
+			}
+		}		
+		
+	}
+}

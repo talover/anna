@@ -1,0 +1,82 @@
+.form {
+	display: block;	
+	width: 100%;
+	padding: 10px;
+	text-transform: uppercase;
+	margin: 10px 0;
+
+	&.white_form {		
+		background: #fff;
+		color: #000;
+
+		.add_btn {
+			background: #000;
+			color: #fff;
+
+			&:after {border-bottom-color: #000;}
+
+	  	&:before {border-top-color: #000;}  
+		}
+	}
+
+	&.black_form {		
+		background: #000;
+		color: #fff;
+
+		.add_btn {
+			background: #fff;
+			color: #000;
+
+			&:after {border-bottom-color: #fff;}
+
+	  	&:before {border-top-color: #fff;}  
+		}
+	}
+
+	.dashed {
+		.square(100%);
+		border: 1px dashed #4d4d4d;
+		text-align: center;
+		padding: 25px 19px 30px 19px;		
+	}
+
+	.form-title {padding-bottom: 12px;}
+
+	input[type="text"],
+	textarea[name="comment"],
+	select {
+		width: 100%;
+		height: 40px;
+		line-height: 38px;
+		border: 1px solid #b2b2b2;
+		outline: 0;
+		.placeholder(inherit);
+		text-align: center;
+		font-size: 11px;
+		text-transform: uppercase;
+		margin: 5px 0;
+		letter-spacing: 0.7px;
+		padding: 11px 5px;	
+		background: transparent;
+	}
+
+	textarea[name="comment"] {
+		height: 119px;
+		line-height: inherit;
+		resize:none;		
+	}	
+
+	.error {
+		border-color: #cc535a!important;
+		.placeholder(#cc535a)!important; 
+	}
+
+	@media(max-width:992px){
+		width: 300px;
+		.center();
+	}
+	@media(max-width:415px){
+		width: 280px;
+		.center();
+	}
+}
