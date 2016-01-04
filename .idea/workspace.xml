@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f362c91-8d08-48c5-ae02-aeb9a87cbefa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/less/fonts/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/less/fonts/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/less/fonts/icomoon.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bootstrap-3.3.6/mixins.less" afterPath="$PROJECT_DIR$/less/bootstrap-3.3.6/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/less/fonts/icomoon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/fonts/json-icomoon.json" afterPath="$PROJECT_DIR$/less/fonts/json-icomoon.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/icon.less" afterPath="$PROJECT_DIR$/less/icon.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.css" afterPath="$PROJECT_DIR$/less/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/breadcrumbs.less" afterPath="$PROJECT_DIR$/less/modules/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/buttons.less" afterPath="$PROJECT_DIR$/less/modules/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/header.less" afterPath="$PROJECT_DIR$/less/modules/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/titles.less" afterPath="$PROJECT_DIR$/less/modules/titles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pages/test-page.less" afterPath="$PROJECT_DIR$/less/pages/test-page.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/styless.less" afterPath="$PROJECT_DIR$/less/styless.less" />
     </list>
     <ignored path="anna1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -311,7 +294,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451851717471</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="styles-page sashka">
+      <created>1451917799199</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1451917799199</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -320,6 +309,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -330,7 +320,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -354,7 +343,8 @@
     <MESSAGE value="test 4 header" />
     <MESSAGE value="5 хз" />
     <MESSAGE value="6 sashka" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 sashka" />
+    <MESSAGE value="styles-page sashka" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles-page sashka" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -397,6 +387,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <marker date="1451820244906" expanded="true" signature="3336:3364" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -426,6 +419,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding>
+            <marker date="1451820244906" expanded="true" signature="3336:3364" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -448,6 +444,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1451820244906" expanded="true" signature="3336:3364" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -492,6 +491,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67509025">
           <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <marker date="1451820244906" expanded="true" signature="3336:3364" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
