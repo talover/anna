@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f362c91-8d08-48c5-ae02-aeb9a87cbefa" name="Default" comment="">
+    <list default="true" id="6f362c91-8d08-48c5-ae02-aeb9a87cbefa" name="Default" comment="styles-page + index">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/instagram-item-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/instagram-item-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/instagram-item-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/instagram-item-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/instagram-item-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/instagram-item-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/instagram-item-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slide1-dresses.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slide2-man.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slide3-woman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/studio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/images/bg_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/images/bride_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/images/dummy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/images/insta-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/owl.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/slick-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/slick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/modules/dropdownlist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/pages/main-page.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/variables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/fonts.less" afterPath="$PROJECT_DIR$/less/fonts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/helper_classes.less" afterPath="$PROJECT_DIR$/less/helper_classes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/icon.less" afterPath="$PROJECT_DIR$/less/icon.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.css" afterPath="$PROJECT_DIR$/less/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/breadcrumbs.less" afterPath="$PROJECT_DIR$/less/modules/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/buttons.less" afterPath="$PROJECT_DIR$/less/modules/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/dropdownlist.less" afterPath="$PROJECT_DIR$/less/modules/dropdownlist.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/forms.less" afterPath="$PROJECT_DIR$/less/modules/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/header.less" afterPath="$PROJECT_DIR$/less/modules/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/popup.less" afterPath="$PROJECT_DIR$/less/modules/popup.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/reviews.less" afterPath="$PROJECT_DIR$/less/modules/reviews.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/titles.less" afterPath="$PROJECT_DIR$/less/modules/titles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pages/test-page.less" afterPath="$PROJECT_DIR$/less/pages/test-page.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/reset.less" afterPath="$PROJECT_DIR$/less/reset.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/styless.less" afterPath="$PROJECT_DIR$/less/styless.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/variables.less" afterPath="$PROJECT_DIR$/less/variables.less" />
     </list>
     <ignored path="anna1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,6 +57,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.35111877">
               <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -82,7 +101,7 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
               <folding>
-                <marker date="1451987943559" expanded="true" signature="11274:11327" placeholder="{...}" />
+                <marker date="1451990945585" expanded="true" signature="11274:11327" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -105,6 +124,7 @@
         <option value="$PROJECT_DIR$/less/main.css" />
         <option value="$PROJECT_DIR$/less/pages/test-page.less" />
         <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -167,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,8 +205,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -287,19 +321,25 @@
       <option name="project" value="LOCAL" />
       <updated>1451918029992</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="styles-page + index">
+      <created>1451988007939</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1451988007939</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -331,7 +371,8 @@
     <MESSAGE value="5 хз" />
     <MESSAGE value="6 sashka" />
     <MESSAGE value="styles-page sashka" />
-    <option name="LAST_COMMIT_MESSAGE" value="styles-page sashka" />
+    <MESSAGE value="styles-page + index" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles-page + index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -368,9 +409,46 @@
     <entry file="file://$PROJECT_DIR$/less/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <marker date="1451990945585" expanded="true" signature="11274:11327" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/mixins.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/pages/test-page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <marker date="1451985776126" expanded="true" signature="14:405" placeholder="{...}" />
+            <marker date="1451985776126" expanded="true" signature="76:125" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding>
-            <marker date="1451987943559" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1451990945585" expanded="true" signature="11274:11327" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -407,7 +485,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding>
-            <marker date="1451987943559" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1451990945585" expanded="true" signature="11274:11327" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -436,7 +514,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <marker date="1451987943559" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1451990945585" expanded="true" signature="11274:11327" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -558,7 +636,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding>
-            <marker date="1451987943559" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1451990945585" expanded="true" signature="11274:11327" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -578,6 +656,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
           <folding />
         </state>
       </provider>

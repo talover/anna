@@ -64,7 +64,7 @@ $(document).ready(function() {
 	});
 
 	$('.instagram-slider').slick({
-	  slidesToShow: 7,
+	  slidesToShow: 8.8,
 	  slidesToScroll: 1,
 	  autoplay: true,
 	  autoplaySpeed: 2000,

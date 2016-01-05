@@ -2000,16 +2000,6 @@ body {
 .copyrights .col-md-4 a:hover {
   color: #fff;
 }
-.main-page-text-block {
-  background: url('images/bride_bg.png') no-repeat right bottom;
-  padding-bottom: 127px;
-  padding-top: 60px;
-}
-@media (max-width: 992px) {
-  .main-page-text-block {
-    padding-bottom: 400px;
-  }
-}
 .slider-wrap {
   width: 100%;
   margin-left: auto;
@@ -2589,6 +2579,18 @@ body {
   }
   .instagram-slider .slick-prev {
     left: 350px;
+  }
+}
+.main-page-text-block {
+  background: url('images/bride_bg.png') no-repeat right bottom;
+  padding-bottom: 127px;
+  padding-top: 60px;
+  background-size: contain;
+}
+@media (max-width: 992px) {
+  .main-page-text-block {
+    padding-bottom: 400px;
+    background-size: inherit;
   }
 }
 .test-content {
