@@ -69,7 +69,7 @@
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
-  padding: 11px 15px 12px 15px;
+  padding: 11px 22px 12px 31px;
   letter-spacing: 1px;  
 
   span {
@@ -82,6 +82,31 @@
   &:after {border-bottom-color: #000;}
 
   &:before {border-top-color: #000;}  
+}
+
+.details_white {
+  border: 2px solid #fff;
+  padding: 11px 57px;
+  position: absolute;
+  bottom: 145px;
+  left: 50%;
+  margin-left: -95px;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  .transition (.3s all ease);
+
+  &:hover {
+    background: #fff;
+    color: #000;
+  }
+
+ 
+  @media(max-width:1400px) {bottom: 125px}
+  @media(max-width:1220px) {bottom: 105px}
+  @media(max-width:992px) {bottom: 50px}
+  @media(max-width:700px) {display: none;}
 }
 
 .back_btn {
@@ -115,9 +140,7 @@
   .dashed {
     display: table-cell;
     vertical-align: middle;
-    padding-left: 100px;
-    border: 1px dashed #4d4d4d;
-    .square(100%);
+    padding-left: 100px;    
     
     .rotated {
       position: absolute;

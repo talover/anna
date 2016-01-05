@@ -52,5 +52,24 @@ $(document).ready(function() {
 			$(this).removeClass('active').next('p').slideUp();
 		}
 	});
-		
+
+	
+
+	$(".main-slider").owlCarousel({
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem:true,
+		navigation:true,
+		addClassActive:true
+	});
+
+	$('.instagram-slider').slick({
+	  slidesToShow: 7,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 2000,
+	  adaptiveHeight: true,
+	});
+
+	//$('.instagram-slider').append("<span class='insta'></span>")
 });
