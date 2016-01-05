@@ -71,5 +71,5 @@ $(document).ready(function() {
 	  adaptiveHeight: true,
 	});
 
-	//$('.instagram-slider').append("<span class='insta'></span>")
+	$('input, select').styler();
 });

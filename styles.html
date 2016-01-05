@@ -10,6 +10,10 @@
     <!-- <link rel="stylesheet" href="css/main.css"> -->
     <link rel="stylesheet/less" type="text/css" href="less/main.less">
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css"> -->
     <script>
         less = {};
         less.env = 'development';
@@ -231,10 +235,10 @@
                                onblur="this.placeholder='Электронная почта'"/>
                         <!-- <input type="text" placeholder="Телефон (не обязательно)" onclick="this.placeholder=''"
                                onblur="this.placeholder='Телефон (не обязательно)'"/> -->
-                        <select>
+                        <select class="jq-selectbox">
                             <option selected="selected">Телефон</option>
-                            <option></option>
-                            <option></option>
+                            <option>Телефон (не обязательно)</option>
+                            <option>item 3</option>
                         </select>
                         <textarea name="comment" cols="20" rows="6" placeholder="ваш отзыв" onclick="this.placeholder=''"
                                   onblur="this.placeholder='ваш отзыв'"></textarea>
@@ -349,8 +353,11 @@
 </footer>
 
 <script src="js/vendor/jquery-1.11.2.min.js"></script>
+<script src="js/vendor/owl.carousel.min.js"></script>
+<script src="js/vendor/slick.js"></script>
 <script src="js/vendor/fontsmoothie.min.js"></script>
 <script src="js/vendor/jquery.fancybox.js"></script>
+<script src="js/vendor/jquery.formstyler.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>

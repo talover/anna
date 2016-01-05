@@ -1665,7 +1665,7 @@ body {
 }
 .form input[type="text"],
 .form textarea[name="comment"],
-.form select {
+.form .jq-selectbox {
   width: 100%;
   height: 40px;
   line-height: 38px;
@@ -1681,19 +1681,48 @@ body {
 }
 .form input[type="text"]::-moz-placeholder,
 .form textarea[name="comment"]::-moz-placeholder,
-.form select::-moz-placeholder {
+.form .jq-selectbox::-moz-placeholder {
   color: inherit;
   opacity: 1;
 }
 .form input[type="text"]:-ms-input-placeholder,
 .form textarea[name="comment"]:-ms-input-placeholder,
-.form select:-ms-input-placeholder {
+.form .jq-selectbox:-ms-input-placeholder {
   color: inherit;
 }
 .form input[type="text"]::-webkit-input-placeholder,
 .form textarea[name="comment"]::-webkit-input-placeholder,
-.form select::-webkit-input-placeholder {
+.form .jq-selectbox::-webkit-input-placeholder {
   color: inherit;
+}
+.form .jq-selectbox {
+  padding: 0 5px;
+}
+.form .jq-selectbox .jq-selectbox__dropdown {
+  line-height: 20px;
+  text-align: center;
+  width: 100%;
+  color: #000;
+  background: #fff;
+}
+.form .jq-selectbox .jq-selectbox__dropdown ul {
+  padding: 0;
+}
+.form .jq-selectbox .jq-selectbox__trigger {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+.form .jq-selectbox .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
+  width: 15px;
+  height: 15px;
+}
+.form .jq-selectbox .jq-selectbox__trigger .jq-selectbox__trigger-arrow:before {
+  content: "\e910";
+  font-family: 'icomoon';
+  font-size: 15px;
+  color: inherit;
+  position: absolute;
 }
 .form textarea[name="comment"] {
   height: 119px;
@@ -2696,6 +2725,30 @@ body {
 }
 .some-list li:hover:before {
   content: "\e90c";
+}
+.service_open .fixed-r-block {
+  margin-right: 300px;
+  width: auto;
+}
+.service_open .fixed-r-block > .bRowFluid_dynamic {
+  width: 100%;
+  float: left;
+}
+.service_open .fixed-r-block > .bRowFluid_fixed {
+  width: 300px;
+  margin-right: -300px !important;
+  float: left;
+}
+.service_open .fixed-r-block .bRowFluid_dynamic {
+  padding-right: 30px;
+}
+.service_open .fixed-r-block .bRowFluid_fixed {
+  height: 100%;
+}
+@media (max-width: 500px) {
+  .service_open {
+    padding-top: 80px;
+  }
 }
 * {
   -webkit-box-sizing: border-box;

@@ -42,7 +42,7 @@
 
 	input[type="text"],
 	textarea[name="comment"],
-	select {
+	.jq-selectbox {
 		width: 100%;
 		height: 40px;
 		line-height: 38px;
@@ -56,6 +56,38 @@
 		letter-spacing: 0.7px;
 		padding: 11px 5px;	
 		background: transparent;
+	}
+
+	.jq-selectbox {
+		padding:0 5px;
+
+		.jq-selectbox__dropdown {
+			line-height: 20px;
+			text-align: center;
+		    width: 100%;
+    		color: #000;
+    		background: #fff;
+
+    		ul {padding: 0;}
+		}
+
+		.jq-selectbox__trigger {
+			position: absolute;
+			right: 30px;
+			top: 0;
+
+			.jq-selectbox__trigger-arrow {
+				.square(15px;);		
+
+				&:before {
+					content: "\e910";
+					font-family: 'icomoon';
+					font-size: 15px;
+					color: inherit;
+					position: absolute;
+				}
+			}
+		}		
 	}
 
 	textarea[name="comment"] {
