@@ -40,9 +40,10 @@
 		display: block;
 		content: "\e902";
 		font-family: "icomoon";
-	    font-size: 33px;
-	    color: inherit;
-        margin-top: 9px;
+		font-size: 33px;
+		color: inherit;
+		margin-top: 9px;
+		font-style: normal;
 	}
 }
 
@@ -69,6 +70,7 @@
 	font-weight: normal;
 	color: #fff;
 	line-height: 246px;
+	z-index: 10;
 
 	&:before {
 		display: block;
@@ -77,16 +79,17 @@
 		border: 5px solid fade(#fff, 40%);
 		.rotate(45deg);
 		position: absolute;
-	    left: 50%;
-	    margin-left: -85px;
-	    top: 50%;
-	    margin-top: -85px;
+		left: 50%;
+		margin-left: -85px;
+		top: 50%;
+		margin-top: -85px;
 	}
 
 	@media(max-width:1300px) {font-size: 50px;}
 	@media(max-width:1100px) {font-size: 40px;}
 	@media(max-width:992px) {
 		font-size: 30px;
+		
 		&:before {
 			.square(80px);
 			margin-left: -40px;

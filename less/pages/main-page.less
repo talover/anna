@@ -82,7 +82,7 @@
 				color: #fff;
 				position: absolute;
 				top: 50%;
-				margin-top: -10px;				
+				margin-top: -12px;				
 			}
 			@media(max-width:850px) {width: 190px;}
 			@media(max-width:800px) {width: 125px;}
@@ -113,6 +113,44 @@
 		}
 	}
 
+	.owl-item.active {		
+
+		.slider-title {
+			-webkit-animation-name: bounceInLeft;
+			animation-name: bounceInLeft;
+			-webkit-animation-duration: 1.5s;
+			animation-duration: 1.5s;
+			-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+		}
+
+		.text-prev {
+			-webkit-animation-name: zoomIn;
+			animation-name: zoomIn;
+			-webkit-animation-duration: 1.5s;
+			animation-duration: 1.5s;
+			-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+		}
+		.text-next {
+			-webkit-animation-name: zoomIn;
+			animation-name: zoomIn;
+			-webkit-animation-duration: 1.5s;
+			animation-duration: 1.5s;
+			-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+		}
+
+		.details_white {
+			-webkit-animation-name: bounceInRight;
+			animation-name: bounceInRight;
+			-webkit-animation-duration: 1.5s;
+			animation-duration: 1.5s;			
+			-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+		}
+	}
+
 	.text-prev,
 	.text-next {
 		font-style: normal;
@@ -122,12 +160,17 @@
 		font-weight: 400;
 		text-transform: uppercase;
 		position: absolute;	
+		height: 50px;
+		top: 50%;
+		margin-top: -25px;
+		line-height: 50px;
+		z-index: 10;
 
 		@media(max-width:800px)	{display: none;}
 	}
 
-	.text-prev {left: 70px;}
-	.text-next {right: 70px;}
+	.text-prev {left: 65px;}
+	.text-next {right: 65px;}
 
 	@media(max-width:700px) {width: 99%!important;}
 }
@@ -151,8 +194,8 @@
 			.img-block {
 				display: inline-block;
 				width: 210px;
-		    height: 225px;
-		    position: relative;
+		    	height: 225px;
+		    	position: relative;
 
 				&:before {
 					content: "\e90a";
@@ -164,23 +207,31 @@
 					font-size: 210px;
 					line-height: 210px;
 					font-family: 'icomoon';
+					color: #000;
+					.transition(0.3s all ease);
 				}
 
 				i {
-			    font-size: 62px;
-			    line-height: 80px;
-			    position: absolute;
-			    left: 50%;
-			    margin-left: -33px;
-			    top: 50%;
-			    margin-top: -31px;
-			    color: #fff;
+				    font-size: 62px;
+				    line-height: 80px;
+				    position: absolute;
+				    left: 50%;
+				    margin-left: -33px;
+				    top: 50%;
+				    margin-top: -31px;
+				    color: #fff;
+				    .transition(0.3s all ease);
 				}
 
 				.icon-tie {
 					font-size: 80px;
 					margin-left: -40px;
 					margin-top: -33px;
+				}
+
+				&:hover {
+					&:before {color:#5C5C5C}
+					i {color: #fff;}
 				}
 			}
 
@@ -299,24 +350,11 @@
 	}
 }
 
-.services {
-	padding: 60px 8px;
-	color: #fff;
-	width: 410px;
-	position: relative;
-	z-index: 2;
 
-	.main-title {
-		text-align: center;
-		display: inline-block;
-		letter-spacing: -0.3px;
-	}
-
+.services,
+.products {
 	.female,
 	.male {
-		float: left;
-		width: 50%;		
-
 		.menu-title {padding: 12px 0 15px 0;}
 
 		ul {
@@ -346,6 +384,7 @@
 					font-family: 'icomoon';
 					font-size: 8px;
 					.transition(.3s all ease);
+					left: -20px;
 				}				
 
 				&:hover {
@@ -357,6 +396,25 @@
 				}
 			}
 		}		
+	}
+}
+.services {
+	padding: 60px 8px;
+	color: #fff;
+	width: 410px;
+	position: relative;
+	z-index: 2;
+
+	.main-title {
+		text-align: center;
+		display: inline-block;
+		letter-spacing: -0.3px;
+	}	
+
+	.female,
+	.male {
+		float: left;
+		width: 50%;
 	}
 
 	.female {
@@ -391,7 +449,7 @@
 .instagram-wrap {
 	width: 100%;	
 	position: relative;
-	padding-top: 10px;
+	padding: 10px 0;
 	margin: 70px 0 0 0;
 
 	@media(max-width:600px) {
@@ -401,9 +459,10 @@
 	.wrap {overflow: hidden;}
 }
 
-.insta-nav {
+.photo-nav {
 	display: block;
-	.size(330px;210px);
+	width: 330px;
+	height: 100%;
 	background: #000;
 	position: absolute;
 	left: 371px;
@@ -456,13 +515,15 @@
 	.insta-logo {}
 }
 
-.instagram-slider {
+.photo-slider {
 	margin-bottom: 0!important;
-	.item {
-		height: 190px !important;
+
+	.item {		
 		width: 190px;		
 		position: relative;
 		margin: 0;		
+		border: 0;
+		outline: 0;
 
 		.wrap {
 			display: block;
@@ -479,7 +540,7 @@
 		}
 
 		img {
-			width: 100%;			
+			width: 100%;					
 		}
 	}
 	.slick-next {	 
@@ -496,9 +557,9 @@
 	.slick-next,
 	.slick-prev {
 		position: absolute;
-    z-index: 10;
-    .square(50px);
-    .transition(0.3s all aese);
+	    z-index: 10;
+	    .square(50px);
+	    .transition(0.3s all aese);
 
 	    &:hover {background: fade(#fff, 30%)}
 
@@ -535,3 +596,4 @@
 		background-size: inherit;
 	}
 }
+

@@ -30,6 +30,12 @@ $(document).ready(function() {
 		$(".dropdown").slideToggle();
 	});
 
+	$(".products .dropdown-btn").click(function(e){
+		e.preventDefault();
+		$(this).toggleClass("active");
+		$(this).next('ul').slideToggle();		
+	});
+
 
 	//fancybox 
 
@@ -63,13 +69,42 @@ $(document).ready(function() {
 		addClassActive:true
 	});
 
-	$('.instagram-slider').slick({
-	  slidesToShow: 8.8,
+	
+	$('.dresses-slider').slick({
+	  slidesToShow: 1,
 	  slidesToScroll: 1,
+	  arrows: true,
+	  fade: false,
+	  asNavFor: '.slider-nav'
+	});
+
+	$('.slider-nav').slick({
+	  slidesToShow: 5,
+	  slidesToScroll: 1,
+	  asNavFor: '.dresses-slider',
+	  dots: true,
+	  centerMode: true,
+	  focusOnSelect: true
+	});
+		
+
+	$('.photo-slider').slick({
+	  slidesToShow:8,
+	  slidesToScroll: 8,
 	  autoplay: true,
-	  autoplaySpeed: 2000,
+	  autoplaySpeed: 3000,
 	  adaptiveHeight: true,
 	});
 
 	$('input, select').styler();
+
+
+
+	$(window).scroll(function(){
+		if($(window).scrollTop() > $("#header").innerHeight() ){
+			$('.fixed-wrap').addClass("fixed-top");			
+		}	
+
+		else {$('.fixed-wrap').removeClass("fixed-top");}
+	});
 });

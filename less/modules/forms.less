@@ -4,6 +4,7 @@
 	padding: 10px;
 	text-transform: uppercase;
 	margin: 10px 0;
+	text-align: center;
 
 	&.white_form {		
 		background: #fff;
@@ -15,7 +16,7 @@
 
 			&:after {border-bottom-color: #000;}
 
-	  	&:before {border-top-color: #000;}  
+		&:before {border-top-color: #000;}  
 		}
 	}
 
@@ -29,14 +30,11 @@
 
 			&:after {border-bottom-color: #fff;}
 
-	  	&:before {border-top-color: #fff;}  
+		&:before {border-top-color: #fff;}  
 		}
 	}
 
-	.dashed {		
-		text-align: center;
-		padding: 25px 19px 30px 19px;		
-	}
+	.dashed {padding: 25px 19px 30px 19px;}
 
 	.form-title {padding-bottom: 12px;}
 
@@ -64,11 +62,19 @@
 		.jq-selectbox__dropdown {
 			line-height: 20px;
 			text-align: center;
-		    width: 100%;
-    		color: #000;
-    		background: #fff;
+			width: 100%;
+			color: #000;
+			background: #fff;
 
-    		ul {padding: 0;}
+			ul {
+				padding: 0;
+
+				li {
+					.transition(0.3s all aese);
+
+					&:hover {background: #C6C6C6}
+				}
+			}
 		}
 
 		.jq-selectbox__trigger {
