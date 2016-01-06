@@ -43,15 +43,16 @@ $(document).ready(function() {
 		$(this).next('ul').slideToggle();
 	});
 
-	var drop_text=$('.drop-list li > .preview-text');
-	drop_text.click(function(e){
+	var preview_text=$('.drop-list li > .preview-text');
+	var drop_text=$('.drop-list li > .full-text');
+	preview_text.click(function(e){
 		e.preventDefault();
 		$(this).parent().toggleClass("active");
 
-		drop_text.not(this).next('p').slideUp();
-		drop_text.not(this).parent().removeClass('active');
+		preview_text.not(this).next('.full-text').slideUp();
+		preview_text.not(this).parent().removeClass('active');
 
-		$(this).next('p').slideToggle();
+		$(this).next('.full-text').slideToggle();
 	});
 
 	//fancybox 

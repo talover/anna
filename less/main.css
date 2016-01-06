@@ -1941,6 +1941,7 @@ body {
 }
 .drop-list li .full-text,
 .drop-list li .preview-text {
+  display: block;
   margin: 0;
   background: #000;
   font-size: 13px;
