@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f362c91-8d08-48c5-ae02-aeb9a87cbefa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dresses1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gallery1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gallery2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gallery3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gallery4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gallery5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gallery6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gallery7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/photo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/photo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/images/nav_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/images/siluet1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/images/siluet2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jquery.formstyler.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery.formstyler.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/pages/about-page.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/pages/service_open.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/slick-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/slick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service_open.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.css" afterPath="$PROJECT_DIR$/less/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/buttons.less" afterPath="$PROJECT_DIR$/less/modules/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/forms.less" afterPath="$PROJECT_DIR$/less/modules/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/header.less" afterPath="$PROJECT_DIR$/less/modules/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/reviews.less" afterPath="$PROJECT_DIR$/less/modules/reviews.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/titles.less" afterPath="$PROJECT_DIR$/less/modules/titles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pages/main-page.less" afterPath="$PROJECT_DIR$/less/pages/main-page.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/dropdownlist.css" afterPath="$PROJECT_DIR$/less/modules/dropdownlist.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/dropdownlist.less" afterPath="$PROJECT_DIR$/less/modules/dropdownlist.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.html" afterPath="$PROJECT_DIR$/styles.html" />
     </list>
     <ignored path="anna1.iws" />
@@ -58,7 +28,54 @@
     <favorites_list name="anna1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.83856505">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-page.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/pages/test-page.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.836364">
+              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+              <folding>
+                <marker date="1451985776126" expanded="true" signature="14:405" placeholder="{...}" />
+                <marker date="1451985776126" expanded="true" signature="76:125" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropdownlist.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/modules/dropdownlist.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.226415">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.26923">
+              <caret line="287" column="49" selection-start-line="287" selection-start-column="49" selection-end-line="287" selection-end-column="49" />
+              <folding>
+                <marker date="1452100407177" expanded="true" signature="1113:1264" placeholder="..." />
+                <marker date="1452100407177" expanded="true" signature="1206:1232" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,6 +93,8 @@
         <option value="$PROJECT_DIR$/less/main.css" />
         <option value="$PROJECT_DIR$/service_open.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles.html" />
+        <option value="$PROJECT_DIR$/less/modules/dropdownlist.less" />
         <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
@@ -139,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,10 +168,104 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dropdownlist.less" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,19 +382,25 @@
       <option name="project" value="LOCAL" />
       <updated>1451996147024</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="final">
+      <created>1452084547760</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1452084547760</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -312,7 +433,8 @@
     <MESSAGE value="6 sashka" />
     <MESSAGE value="styles-page sashka" />
     <MESSAGE value="styles-page + index" />
-    <option name="LAST_COMMIT_MESSAGE" value="styles-page + index" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -359,8 +481,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding>
-            <marker date="1452083352621" expanded="true" signature="11274:11327" placeholder="{...}" />
-            <marker date="1452083352621" expanded="true" signature="65188:65190" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="65240:65242" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -405,8 +527,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding>
-            <marker date="1452083352621" expanded="true" signature="11274:11327" placeholder="{...}" />
-            <marker date="1452083352621" expanded="true" signature="65188:65190" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="65240:65242" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -443,8 +565,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding>
-            <marker date="1452083352621" expanded="true" signature="11274:11327" placeholder="{...}" />
-            <marker date="1452083352621" expanded="true" signature="65188:65190" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="65240:65242" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -481,8 +603,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding>
-            <marker date="1452083352621" expanded="true" signature="11274:11327" placeholder="{...}" />
-            <marker date="1452083352621" expanded="true" signature="65188:65190" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="65240:65242" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -519,8 +641,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding>
-            <marker date="1452083352621" expanded="true" signature="11274:11327" placeholder="{...}" />
-            <marker date="1452083352621" expanded="true" signature="65188:65190" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="65240:65242" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -549,8 +671,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <marker date="1452083352621" expanded="true" signature="11274:11327" placeholder="{...}" />
-            <marker date="1452083352621" expanded="true" signature="65188:65190" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="65240:65242" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -698,10 +820,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="97.17212">
+          <caret line="3321" column="66" selection-start-line="3321" selection-start-column="66" selection-end-line="3321" selection-end-column="66" />
+          <folding>
+            <marker date="1452100480814" expanded="true" signature="11274:11327" placeholder="{...}" />
+            <marker date="1452100480814" expanded="true" signature="65240:65242" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/pages/service_open.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/modules/dropdownlist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/less/pages/test-page.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029259896">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state vertical-scroll-proportion="-14.836364">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding>
             <marker date="1451985776126" expanded="true" signature="14:405" placeholder="{...}" />
             <marker date="1451985776126" expanded="true" signature="76:125" placeholder="{...}" />
@@ -709,20 +858,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.css">
+    <entry file="file://$PROJECT_DIR$/styles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="97.17212">
-          <caret line="3321" column="66" selection-start-line="3321" selection-start-column="66" selection-end-line="3321" selection-end-column="66" />
+        <state vertical-scroll-proportion="-21.26923">
+          <caret line="287" column="49" selection-start-line="287" selection-start-column="49" selection-end-line="287" selection-end-column="49" />
           <folding>
-            <marker date="1452083352621" expanded="true" signature="11274:11327" placeholder="{...}" />
-            <marker date="1452083352621" expanded="true" signature="65188:65190" placeholder="{...}" />
+            <marker date="1452100407177" expanded="true" signature="1113:1264" placeholder="..." />
+            <marker date="1452100407177" expanded="true" signature="1206:1232" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/modules/dropdownlist.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.226415">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2322899">
+        <state vertical-scroll-proportion="0.83856505">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>

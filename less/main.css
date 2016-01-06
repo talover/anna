@@ -1926,37 +1926,41 @@ body {
   }
 }
 .drop-list {
-  padding: 15px 0;
+  padding: 15px 30px;
   margin: 0;
   background: #000;
 }
 .drop-list li {
   display: block;
   list-style: none;
-  padding: 15px 30px;
+  padding: 15px 0;
   position: relative;
   color: #fff;
+  border: 1px dashed #4d4d4d;
+  margin: 10px 0;
 }
 .drop-list li .full-text,
 .drop-list li .preview-text {
   margin: 0;
-  border: 1px dashed #4d4d4d;
   background: #000;
   font-size: 13px;
   font-family: 'OpenSans';
   font-style: italic;
-  padding: 10px 30px 10px 20px;
+  padding: 0 30px 0 20px;
   position: relative;
   line-height: 22px;
+  background: inherit;
+  color: inherit;
 }
-.drop-list li .full-text.active,
-.drop-list li .preview-text.active {
-  display: none;
+.drop-list li.active {
+  background: #fff;
+  color: #000;
+}
+.drop-list li.active .toggle_btn:after {
+  content: "\e911";
 }
 .drop-list li .full-text {
   display: none;
-  background: #fff;
-  color: #000;
 }
 .drop-list li .toggle_btn {
   position: absolute;
