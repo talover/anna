@@ -2962,6 +2962,10 @@ body {
   color: #fff;
   text-align: left;
 }
+.products .female,
+.products .male {
+  position: relative;
+}
 .products .dashed {
   padding: 16px 19px 10px 29px;
 }
@@ -2970,6 +2974,14 @@ body {
 }
 .products .dropdown-btn {
   display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+.products .dropdown-btn:before {
+  position: absolute;
+  right: 21px;
 }
 .products ul {
   display: none;

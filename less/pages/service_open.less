@@ -79,9 +79,22 @@
 	color: #fff;
 	text-align: left;
 
+	.female,
+	.male {	position: relative;}
 	.dashed {padding: 16px 19px 10px 29px;}
 	.menu-title {display: inline-block;}
-	.dropdown-btn {display: inline-block;}
+	.dropdown-btn {
+		display: inline-block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+
+		&:before {
+			position: absolute;
+			right: 21px;
+		}
+	}
 
 	ul {
 		display: none;
