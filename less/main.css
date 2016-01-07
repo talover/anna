@@ -872,6 +872,12 @@ body {
 .icon-soc_in:before {
   content: "\e916";
 }
+.icon-sand_clock:before {
+  content: "\e917";
+}
+.icon-dummy:before {
+  content: "\e918";
+}
 .main_logo {
   display: block;
   background: url('images/main_logo.png') no-repeat;
@@ -1098,12 +1104,19 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 34px;
-  margin-top: -17px;
-  margin-left: -17px;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
+}
+.btn_big .dashed .rotated .dashed_rotated .icon-pen {
+  font-size: 34px;
+  margin-top: -17px;
+  margin-left: -17px;
+}
+.btn_big .dashed .rotated .dashed_rotated .icon-dummy {
+  font-size: 48px;
+  margin-top: -24px;
+  margin-left: -8px;
 }
 .btn_big:hover .rotated {
   background: #fff;
@@ -2339,9 +2352,13 @@ body {
   transition: 0.3s all ease;
 }
 .advantages .advantage-list .item .img-block .icon-tie {
-  font-size: 80px;
-  margin-left: -40px;
+  font-size: 43px;
+  margin-left: -47px;
   margin-top: -33px;
+}
+.advantages .advantage-list .item .img-block .icon-sand_clock {
+  margin-left: -29px;
+  margin-top: -31px;
 }
 .advantages .advantage-list .item .img-block:hover:before {
   color: #5C5C5C;
@@ -2939,8 +2956,8 @@ body {
   content: '';
   display: block;
   position: absolute;
-  width: 244px;
-  height: 702px;
+  width: 192px;
+  height: 697px;
   background: url('images/siluet2.png');
   right: -97px;
   top: 60px;
@@ -3134,11 +3151,11 @@ body {
   content: '';
   display: block;
   position: absolute;
-  width: 321px;
-  height: 696px;
+  width: 467px;
+  height: 695px;
   background: url('images/siluet1.png');
-  left: -170px;
-  top: -130px;
+  left: -310px;
+  top: -80px;
   z-index: -1;
 }
 @media (max-width: 992px) {
