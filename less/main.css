@@ -2957,6 +2957,12 @@ body {
   width: 300px;
   z-index: 10;
 }
+@media (max-width: 800px) {
+  .service_open .fixed-top {
+    position: relative;
+    top: auto;
+  }
+}
 .products {
   padding: 10px ;
   background: #000;
