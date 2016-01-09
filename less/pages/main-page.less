@@ -199,8 +199,7 @@
 
 				&:before {
 					content: "\e90a";
-					display: block;
-					.square(150px);
+					display: block;					
 					position: absolute;
 					top: 15px;
 					left: 0;
@@ -243,9 +242,9 @@
 			p {
 				font-size: 14px;
 				text-transform: uppercase;				
-		    letter-spacing: 2.8px;
-		    padding: 6px 0px;
-		    line-height: 22px;
+				letter-spacing: 2.8px;
+				padding: 6px 0px;
+				line-height: 22px;
 			}
 
 			@media(max-width:992px) {
@@ -254,9 +253,32 @@
 
 			@media(max-width:450px) {
 				.img-block {
-					width: 100%;					
+					width: 100%;
+					height: 180px;					
 
-					&:before {font-size: 150px;}
+					&:before {
+						font-size: 150px;
+						line-height: 150px;
+						left: 50%;
+						margin-left: -75px;
+					}
+
+					i {
+						font-size: 49px;
+						margin-left: -25px;						
+						margin-top: -38px;
+
+						&.icon-tie {
+							font-size: 33px;
+							margin-left: -37px;
+							margin-top: -38px;
+						}
+
+						&.icon-sand_clock {
+							margin-left: -22px;
+							margin-top: -39px;
+						}
+					}
 				}
 
 				p {
@@ -282,8 +304,11 @@
 		.size(225px;586px);
 		position: absolute;
 		bottom: -41px;
-    right: 0px;
+    	right: 0px;
 		background: url('@{rootUrl}dummy.png') no-repeat;
+		background-size: contain;
+
+		@media(max-width:1280px) {height: 475px;}
 
 		@media(max-width:650px) {display: none;}
 	}
@@ -603,3 +628,13 @@
 	}
 }
 
+@media(max-width:650px) {
+	.instagram-wrap {margin-top: 25px;}
+	.main-page-text-block {padding-top: 25px;}
+	.advantages {padding: 30px 0 25px 0;}
+	.about {padding:30px 0;}
+
+	.service_open {
+		.main-title {padding-top: 20px;}
+	}
+}	

@@ -110,9 +110,29 @@ $(document).ready(function() {
 
 	$(window).scroll(function(){
 		if($(window).scrollTop() > $("#header").innerHeight() ){
-			$('.fixed-wrap').addClass("fixed-top");			
+			$('.fixed-wrap').addClass("fixed-top");
 		}	
 
 		else {$('.fixed-wrap').removeClass("fixed-top");}
 	});
+
+	$(window).scroll(function(){
+		if($(window).scrollTop() > 0){			
+			$('.products ul').slideUp();
+			btn.removeClass('active');		
+		}	
+	});
+
+
+	function setEqualHeight(columns) { 
+		var tallestcolumn = 0; 
+		columns.each( function() { 
+			currentHeight = $(this).innerHeight(); 
+			if(currentHeight > tallestcolumn) { tallestcolumn = currentHeight; } 
+		}); 
+		columns.height(tallestcolumn); 
+	}
+
+	setEqualHeight($(".eq-height")); 
+	
 });
