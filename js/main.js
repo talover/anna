@@ -133,6 +133,16 @@ $(document).ready(function() {
 		columns.height(tallestcolumn); 
 	}
 
-	setEqualHeight($(".eq-height")); 
+	setEqualHeight($(".eq-height"));
+
+	// m-menu
+
+
+	$("#mob-menu").mmenu();
 	
+	var API = $("#my-menu").data( "mmenu" );
+
+	$("#mob-btn").click(function() {
+		API.open();
+	});
 });

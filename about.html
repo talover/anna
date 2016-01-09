@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="less/slick.css">
 	<link rel="stylesheet" type="text/css" href="less/slick-theme.css">	
 	<link rel="stylesheet" type="text/css" href="less/animate.css">	
+	<link rel="stylesheet" type="text/css" href="less/jquery.mmenu.css">
 	<script>
 		less = {};
 		less.env = 'development';
@@ -32,9 +33,54 @@
 	<![endif]-->
 
 	<div id="overlay"></div>
+	<nav id="mob-menu">
+		<ul class="clearfix">
+			<li><a href="#">Каталог</a></li>
+			<li><a href="#">Пошив одежды</a>				
+				<ul>
+					<li><a href="#">Женщинам</a>
+						<ul class="inner-nav-list">
+							<li><a href="#">Свадебные платья</a></li>
+							<li><a href="#">Вечерние платья</a></li>
+							<li><a href="#">Коктейльные платья</a></li>
+							<li><a href="#">Повседневные платья</a></li>
+							<li><a href="#">Женские брюки</a></li>
+							<li><a href="#">Блузы</a></li>
+							<li><a href="#">Пальто</a></li>						
+							<li><a href="#">Шубы</a></li>
+							<li><a href="#">Куртки</a></li>
+							<li><a href="#">Кардиганы</a></li>
+							<li><a href="#">Туники</a></li>
+							<li><a href="#">Свитера</a></li>
+							<li><a href="#">Жакеты</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Мужчинам</a>
+						<ul class="inner-nav-list">
+							<li><a href="#">Костюмы</a></li>
+							<li><a href="#">Фраки</a></li>
+							<li><a href="#">Рубашки</a></li>
+							<li><a href="#">Смокинги</a></li>
+							<li><a href="#">Брюки</a></li>
+							<li><a href="#">Пиджаки</a></li>						
+							<li><a href="#">Свитера</a></li>
+							<li><a href="#">Кардиганы</a></li>
+							<li><a href="#">Куртки</a></li>
+							<li><a href="#">Пальто</a></li>
+							<li><a href="#">Поло</a></li>
+						</ul>
+					</li> 
+				</ul>								
+			</li>
+			<li><a href="#">О студии</a></li>
+			<li><a href="#">Портфолио</a></li>
+			<li><a href="#">Новости и статьи</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</nav>
 
 	<div class="main about-page">
-
+		<a href="#mob-menu" id="mob-btn" class="mm-slideout"><span></span></a>
 		<header id="header">
 			<div class="main-container clearfix">
 				<div class="f-left">
@@ -316,6 +362,7 @@
 	<script src="js/vendor/jquery-1.11.2.min.js"></script>
 	<script src="js/vendor/owl.carousel.min.js"></script>
 	<script src="js/vendor/slick.js"></script>
+	<script src="js/vendor/jquery.mmenu.min.js"></script>
 	<script src="js/vendor/fontsmoothie.min.js"></script>
 	<script src="js/vendor/jquery.fancybox.js"></script>
 	<script src="js/vendor/jquery.formstyler.min.js"></script>
