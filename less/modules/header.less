@@ -1,6 +1,10 @@
 #header {
   padding: 0;
   background: #000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
 
   .logo {
     display: inline-block;
@@ -28,11 +32,10 @@
   }
 
   .phone-block {
-    @media (max-width:992px){
-      min-height: 100%;
+    @media (max-width:992px){      
       background: #000;
       padding-top: 71px;
-      width: 130px;
+      width: 140px;
       position: absolute;
       right: 0;
       overflow: hidden;
@@ -55,7 +58,6 @@
   display: inline-block;
   vertical-align: top;
 
-
   > ul {
     padding: 0 0 0 60px;
     margin: 0;
@@ -77,12 +79,18 @@
         padding: 28px 20px;
         letter-spacing: 0.5px;
 
-        @media (max-width:1460px) {padding: 30px 10px}
+        @media (max-width:1460px) {padding: 28px 10px}
 
         @media (max-width:1100px) {
           font-size: 9px;
-          padding: 30px 8px;
+          padding: 28px 8px;
         }
+      }
+
+      .dropdown-btn {
+        display: none;
+        font-size: 20px;
+        padding: 7px 25px;
       }
 
       &:hover {
@@ -110,7 +118,7 @@
   display: none;
   left: 0;
   top: 100%;
-  z-index: 10;
+  z-index: 100;
   .transition(.3s all ease);
 
   .female,
@@ -163,13 +171,26 @@
       }
     }
   }
+
+  @media(max-width:1230px) {
+    width: 700px;
+
+    .female,
+    .male {
+      width: 350px;
+      height: auto;
+
+      .inner-nav-list {width: 175px;}
+    }
+  }
 }
 
 .phone-num {
   display: inline-block;
   color: #fff;
   font-size: 13px;
-  font-family: @fontBold;
+  font-family: 'OpenSans';
+  font-weight: 700;
   padding: 27px 28px 0 0;
   letter-spacing: 0.4px;
 
@@ -180,11 +201,10 @@
     padding-top: 0;
   }
 
-  @media (max-width:600px) {
-    font-size: 10px;
-    padding: 27px 0 0 0;
+  @media (max-width:600px) {    
+    padding: 27px 20px 0 0;
     top: 40px;
-    width: 80px;
+    width: 120px;
   }
 }
 
@@ -214,7 +234,9 @@
 
 @media(max-width:992px) {
   .main-nav {
-    width: 200px;
+    display: block;
+    height: auto;
+    width: 250px;
     top:0;
     left: 0;
     background: #000;
@@ -222,33 +244,48 @@
     position: absolute;
     .translate(-100%,0);
     .transition(0.3s all ease);
-    z-index:1000;
+    z-index:1001;
 
     &.active {.translate(0,0);}
     
     > ul {
       padding: 0;
       background: #000;
+
       li {
         float:none;
         display: block;
-        padding-left: 15px;
+
+        a {
+          font-size: 11px;
+          display: inline-block;
+          vertical-align: middle;
+          padding:14px 23px;
+        }
+
+        .dropdown-btn {display: inline-block;}
 
         .dropdown {
-          width: 440px;
+          width: 250px;
           left: 100%;
-          top: 0;
+          top: 100%; 
+          left: 0; 
+          position: relative; 
 
-          @media(max-width:600px) {
-            width: 200px;
+          li {padding: 5px 0 5px 10px}   
 
-            .male,
-            .female {
-              width: 200px;
-              height: auto;
-            }
-          }
+          .male,
+          .female {
+            width: 250px;
+            height: auto;
+
+            .inner-nav-list {width: 250px;}
+          }          
         }
+
+        &:hover {
+          .dropdown {display: none;}
+        }        
       }
     }
   }

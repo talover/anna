@@ -1,0 +1,61 @@
+.drop-list {
+  padding: 15px 30px;
+  margin: 0;
+  background: #000;
+}
+.drop-list li {
+  display: block;
+  list-style: none;
+  padding: 15px 0;
+  position: relative;
+  color: #fff;
+  border: 1px dashed #4d4d4d;
+  margin: 10px 0;
+}
+.drop-list li .full-text,
+.drop-list li .preview-text {
+  display: block;
+  margin: 0;
+  background: #000;
+  font-size: 13px;
+  font-family: 'OpenSans';
+  font-style: italic;
+  padding: 0 30px 0 20px;
+  position: relative;
+  line-height: 22px;
+  background: inherit;
+  color: inherit;
+}
+.drop-list li.active {
+  background: #fff;
+  color: #000;
+}
+.drop-list li.active .toggle_btn:after {
+  content: "\e911";
+}
+.drop-list li .full-text {
+  display: none;
+}
+.drop-list li .toggle_btn {
+  position: absolute;
+  height: 100%;
+  width: 40px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.drop-list li .toggle_btn:after {
+  content: "\e910";
+  color: inherit;
+  font-family: 'icomoon';
+  font-size: 16px;
+  font-style: normal;
+  margin-top: -13px;
+  margin-left: -8px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+.drop-list li .toggle_btn.active:after {
+  content: "\e911";
+}

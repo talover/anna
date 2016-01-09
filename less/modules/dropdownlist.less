@@ -1,0 +1,66 @@
+.drop-list {
+	padding:15px 30px;
+	margin: 0;
+	background: #000;
+
+	li {
+		display: block;
+		list-style: none;
+		padding: 15px 0;
+		position: relative;
+		color: #fff;
+		border: 1px dashed #4d4d4d;
+		margin: 10px 0;
+
+		.full-text,
+		.preview-text {
+			display: block;
+			margin: 0;
+			background: #000;			
+			font-size: 13px;
+			font-family: 'OpenSans';
+			font-style: italic;
+			padding: 0 30px 0 20px;
+			position: relative;
+			line-height: 22px;
+			background: inherit;
+			color: inherit;
+		}
+
+		&.active {
+			background: #fff;
+			color: #000;
+
+			.toggle_btn { &:after {content: "\e911"} }
+		}
+
+		.full-text {display: none;}
+
+		.toggle_btn {			
+			position: absolute;
+			height: 100%;
+			width: 40px;
+			top: 0;
+			right: 0;
+			cursor: pointer;
+
+			&:after {
+				content: "\e910";
+				color: inherit;
+				font-family: 'icomoon';
+				font-size: 16px;
+				font-style: normal;
+				margin-top: -13px;
+				margin-left: -8px;
+				position: absolute;
+				top: 50%;
+				right: 50%;
+			}
+
+			&.active {
+				&:after {content: "\e911"}
+			}
+		}		
+		
+	}
+}
