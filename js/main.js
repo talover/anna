@@ -43,6 +43,16 @@ $(document).ready(function() {
 		$(this).next('ul').slideToggle();
 	});
 
+	var btn=$(".products_top .dropdown-btn");
+	btn.click(function(e){
+		e.preventDefault();
+		$(this).toggleClass("active");
+		btn.not(this).next('ul').slideUp();
+		btn.not(this).removeClass('active');
+
+		$(this).next('ul').slideToggle();
+	});
+
 	var preview_text=$('.drop-list li > .preview-text');
 	var drop_text=$('.drop-list li > .full-text');
 	preview_text.click(function(e){
