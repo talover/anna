@@ -43,12 +43,12 @@ $(document).ready(function() {
 		$(this).next('ul').slideToggle();
 	});
 
-	var btn=$(".products_top .dropdown-btn");
-	btn.click(function(e){
+	var btn_top=$(".products_top .dropdown-btn");
+	btn_top.click(function(e){
 		e.preventDefault();
 		$(this).toggleClass("active");
-		btn.not(this).next('ul').slideUp();
-		btn.not(this).removeClass('active');
+		btn_top.not(this).next('ul').slideUp();
+		btn_top.not(this).removeClass('active');
 
 		$(this).next('ul').slideToggle();
 	});

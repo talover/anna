@@ -1,94 +1,61 @@
 @font-face {
-	font-family:'OpenSans-Regular';
-	src: url('fonts/OpenSans_gdi.eot');
-	src: url('fonts/OpenSans_gdi.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans_gdi.woff') format('woff'),
-		url('fonts/OpenSans_gdi.ttf') format('truetype'),
-		url('fonts/OpenSans_gdi.otf') format('opentype'),
-		url('fonts/OpenSans_gdi.svg#OpenSans-Regular') format('svg');
-	font-weight: 400;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-04FE;
+  font-family: 'OpenSans';
+  src: url('fonts/OpenSans_gdi.eot');
+  src: url('fonts/OpenSans_gdi.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans_gdi.woff') format('woff'), url('fonts/OpenSans_gdi.ttf') format('truetype'), url('fonts/OpenSans_gdi.otf') format('opentype'), url('fonts/OpenSans_gdi.svg#OpenSans-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-04FE;
 }
-
 @font-face {
-	font-family:'OpenSans-BoldItalic';
-	src: url('fonts/OpenSans-BoldItalic_gdi.eot');
-	src: url('fonts/OpenSans-BoldItalic_gdi.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-BoldItalic_gdi.woff') format('woff'),
-		url('fonts/OpenSans-BoldItalic_gdi.ttf') format('truetype'),
-		url('fonts/OpenSans-BoldItalic_gdi.otf') format('opentype'),
-		url('fonts/OpenSans-BoldItalic_gdi.svg#OpenSans-BoldItalic') format('svg');
-	font-weight: 700;
-	font-style: italic;
-	font-stretch: normal;
-	unicode-range: U+0020-04FE;
+  font-family: 'OpenSans';
+  src: url('fonts/OpenSans-BoldItalic_gdi.eot');
+  src: url('fonts/OpenSans-BoldItalic_gdi.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-BoldItalic_gdi.woff') format('woff'), url('fonts/OpenSans-BoldItalic_gdi.ttf') format('truetype'), url('fonts/OpenSans-BoldItalic_gdi.otf') format('opentype'), url('fonts/OpenSans-BoldItalic_gdi.svg#OpenSans-BoldItalic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-04FE;
 }
-
 @font-face {
-	font-family:'OpenSans-Bold';
-	src: url('fonts/OpenSans-Bold_gdi.eot');
-	src: url('fonts/OpenSans-Bold_gdi.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-Bold_gdi.woff') format('woff'),
-		url('fonts/OpenSans-Bold_gdi.ttf') format('truetype'),
-		url('fonts/OpenSans-Bold_gdi.otf') format('opentype'),
-		url('fonts/OpenSans-Bold_gdi.svg#OpenSans-Bold') format('svg');
-	font-weight: 700;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-04FE;
+  font-family: 'OpenSans';
+  src: url('fonts/OpenSans-Bold_gdi.eot');
+  src: url('fonts/OpenSans-Bold_gdi.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Bold_gdi.woff') format('woff'), url('fonts/OpenSans-Bold_gdi.ttf') format('truetype'), url('fonts/OpenSans-Bold_gdi.otf') format('opentype'), url('fonts/OpenSans-Bold_gdi.svg#OpenSans-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-04FE;
 }
-
 @font-face {
-	font-family:'OpenSans-Italic';
-	src: url('fonts/OpenSans-Italic_gdi.eot');
-	src: url('fonts/OpenSans-Italic_gdi.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-Italic_gdi.woff') format('woff'),
-		url('fonts/OpenSans-Italic_gdi.ttf') format('truetype'),
-		url('fonts/OpenSans-Italic_gdi.otf') format('opentype'),
-		url('fonts/OpenSans-Italic_gdi.svg#OpenSans-Italic') format('svg');
-	font-weight: 400;
-	font-style: italic;
-	font-stretch: normal;
-	unicode-range: U+0020-04FE;
+  font-family: 'OpenSans';
+  src: url('fonts/OpenSans-Italic_gdi.eot');
+  src: url('fonts/OpenSans-Italic_gdi.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Italic_gdi.woff') format('woff'), url('fonts/OpenSans-Italic_gdi.ttf') format('truetype'), url('fonts/OpenSans-Italic_gdi.otf') format('opentype'), url('fonts/OpenSans-Italic_gdi.svg#OpenSans-Italic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-04FE;
 }
-
 @font-face {
-	font-family:'PlayfairDisplay-Regular';
-	src: url('fonts/PlayfairDisplay-Regular_gdi.eot');
-	src: url('fonts/PlayfairDisplay-Regular_gdi.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-Regular_gdi.woff') format('woff'),
-		url('fonts/PlayfairDisplay-Regular_gdi.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-Regular_gdi.otf') format('opentype'),
-		url('fonts/PlayfairDisplay-Regular_gdi.svg#PlayfairDisplay-Regular') format('svg');
-	font-weight: 400;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-0491;
+  font-family: 'PlayfairDisplay';
+  src: url('fonts/PlayfairDisplay-Regular_gdi.eot');
+  src: url('fonts/PlayfairDisplay-Regular_gdi.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-Regular_gdi.woff') format('woff'), url('fonts/PlayfairDisplay-Regular_gdi.ttf') format('truetype'), url('fonts/PlayfairDisplay-Regular_gdi.otf') format('opentype'), url('fonts/PlayfairDisplay-Regular_gdi.svg#PlayfairDisplay-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0491;
 }
-
 @font-face {
-	font-family:'PlayfairDisplay-Italic';
-	src: url('fonts/PlayfairDisplay-Italic_gdi.eot');
-	src: url('fonts/PlayfairDisplay-Italic_gdi.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-Italic_gdi.woff') format('woff'),
-		url('fonts/PlayfairDisplay-Italic_gdi.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-Italic_gdi.otf') format('opentype'),
-		url('fonts/PlayfairDisplay-Italic_gdi.svg#PlayfairDisplay-Italic') format('svg');
-	font-weight: 400;
-	font-style: italic;
-	font-stretch: normal;
-	unicode-range: U+0020-0491;
+  font-family: 'PlayfairDisplay';
+  src: url('fonts/PlayfairDisplay-Italic_gdi.eot');
+  src: url('fonts/PlayfairDisplay-Italic_gdi.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-Italic_gdi.woff') format('woff'), url('fonts/PlayfairDisplay-Italic_gdi.ttf') format('truetype'), url('fonts/PlayfairDisplay-Italic_gdi.otf') format('opentype'), url('fonts/PlayfairDisplay-Italic_gdi.svg#PlayfairDisplay-Italic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-0491;
 }
-
 @font-face {
-    font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?agbeq');
-    src:    url('fonts/icomoon.eot?agbeq#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?agbeq') format('truetype'),
-        url('fonts/icomoon.woff?agbeq') format('woff'),
-        url('fonts/icomoon.svg?agbeq#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?agbeq');
+  src: url('fonts/icomoon.eot?agbeq#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?agbeq') format('truetype'), url('fonts/icomoon.woff?agbeq') format('woff'), url('fonts/icomoon.svg?agbeq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
