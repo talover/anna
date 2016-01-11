@@ -2225,8 +2225,8 @@ Slider
 -------------------------------- */
 .cd-slider-wrapper {
   position: relative;
-  width: 100%;
-  margin: 0 auto;
+  width: 101%;
+  margin: 0 -5px;
   overflow-x: hidden;
   padding-top: 60px;
 }

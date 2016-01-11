@@ -1,0 +1,266 @@
+.cd-filter {
+	/* SVG animation style switcher - not needed in production */
+	margin-top: 1em;
+	text-align: center;
+}
+.cd-filter li {
+	display: inline-block;
+	margin: 4px;
+}
+.cd-filter a {
+	display: block;
+	border-bottom: 2px solid rgba(76, 92, 98, 0);
+	padding: .8em 1em;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #4c5c62;
+}
+.no-touch .cd-filter a:hover {
+	border-bottom: 2px solid rgba(76, 92, 98, 0.6);
+}
+.cd-filter a.selected {
+	color: #00A7E1;
+	border-bottom: 2px solid rgba(0, 167, 225, 0.4);
+}
+.no-touch .cd-filter a.selected:hover {
+	border-bottom: 2px solid rgba(0, 167, 225, 0.4);
+}
+@media only screen and (min-width: 768px) {
+	.cd-filter {
+		margin-top: 2em;
+	}
+}
+
+/* -------------------------------- 
+Slider
+-------------------------------- */
+.cd-slider-wrapper {
+	position: relative;
+	width: 101%; 
+	margin: 0 -5px;	
+	overflow-x: hidden;
+	padding-top: 60px;
+
+	ul {padding: 0;}
+
+	img, svg, image {
+		max-width: 100%;
+	}
+
+	.cd-slider {
+		position: relative;
+		margin: 0;
+
+		li.is-animating {		
+
+			.slider-title {
+				-webkit-animation-name: bounceInLeft;
+				animation-name: bounceInLeft;
+				-webkit-animation-duration: 1.5s;
+				animation-duration: 1.5s;
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+			}
+
+			.text-prev {
+				-webkit-animation-name: zoomIn;
+				animation-name: zoomIn;
+				-webkit-animation-duration: 1.5s;
+				animation-duration: 1.5s;
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+			}
+			.text-next {
+				-webkit-animation-name: zoomIn;
+				animation-name: zoomIn;
+				-webkit-animation-duration: 1.5s;
+				animation-duration: 1.5s;
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+			}
+
+			.details_white {
+				-webkit-animation-name: bounceInRight;
+				animation-name: bounceInRight;
+				-webkit-animation-duration: 1.5s;
+				animation-duration: 1.5s;			
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+			}
+		}
+
+		.text-prev,
+		.text-next {
+			font-style: normal;
+			color: #fff;
+			font-size: 12px;
+			font-family: 'OpenSans';
+			font-weight: 400;
+			text-transform: uppercase;
+			position: absolute;	
+			height: 50px;
+			top: 50%;
+			margin-top: -23px;
+			line-height: 50px;
+			z-index: 10;
+
+			@media(max-width:800px)	{display: none;}
+		}
+
+		.text-prev {left: 65px;}
+		.text-next {right: 65px;}
+
+		@media(min-width:1919px) {
+			border: 10px solid #fff;
+			border-bottom: 0px solid #fff;
+			border-top: 0px solid #fff;
+		}
+	}	
+}
+
+.cd-slider > li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+	/* hide vertical scrollbar on IE11 */
+	overflow: hidden;
+}
+.cd-slider > li.visible {
+	position: relative;
+	z-index: 2;
+	opacity: 1;
+}
+.cd-slider > li.is-animating {
+	z-index: 3;
+	opacity: 1;
+}
+
+.cd-slider .cd-svg-wrapper {
+	/* using padding Hack to fix bug on IE - svg height not properly calculated */
+	height: 0;
+	padding-bottom: 57.15%;
+}
+
+.cd-slider-wrapper svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* -------------------------------- 
+Slider navigation
+-------------------------------- */
+.cd-slider-navigation li {
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	bottom: auto;
+	right: 0;	
+	list-style: none;
+}
+.cd-slider-navigation li .next-slide,
+.cd-slider-navigation li .prev-slide {
+	display: block;		
+	color: transparent;	
+	.size(225px;50px);
+	padding: 16px 30px 15px 30px;
+	background: fade(#000, 15%);		
+	.transition (.3s all ease);
+
+	&:hover {background: fade(#000, 50%);}
+
+	&:before {
+		content: "\e901";
+		right: 30px;
+		display: inline-block;
+		font-size: 19px;
+		font-family: 'icomoon';
+		vertical-align: middle;				
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		margin-top: -12px;				
+	}
+	@media(max-width:850px) {width: 190px;}
+	@media(max-width:800px) {width: 125px;}
+
+
+
+	@media(max-width:700px) {
+		background: transparent;
+		width: 50px;
+	}			
+}
+.cd-slider-navigation li:last-of-type {
+	left: 0;	
+	right: auto;
+}
+.cd-slider-navigation li:last-of-type .prev-slide {
+	&:before {
+		content: "\e900";
+		left: 30px;
+		right: auto;
+	}
+}
+
+/* -------------------------------- 
+Slider dots/controls 
+-------------------------------- */
+.cd-slider-controls {
+	position: absolute;
+	bottom: 70px;	
+	right: auto;	
+	z-index: 3;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+
+	@media(max-width:1220px) {bottom: 15px}  
+}
+
+.cd-slider-controls::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+.cd-slider-controls li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.cd-slider-controls li:last-of-type {
+	margin-right: 0;
+}
+.cd-slider-controls li.selected a {
+	opacity: 1;
+
+	&:before {
+		content: "\e90c" !important;					
+	}		
+}
+.cd-slider-controls a {
+	display: inline-block;
+	/* image replacement */		
+	color: transparent;
+	.square(13px);	
+	opacity: 0.3;
+	.transition(.3s all aese);
+
+	&:before {
+		display: block;
+		content: "\e90b";				
+		.square(13px);
+		font-size: 13px;
+		font-family: 'icomoon';
+		color: #fff;
+	}
+}
+
+.no-touch .cd-slider-controls a:hover {
+	opacity: 1;
+}
