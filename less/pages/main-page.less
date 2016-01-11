@@ -1,180 +1,4 @@
-.slider-wrap {
-	width: 100%;
-	.center();
-	background: #fff;
-	padding-top: 59px;
-}
-.main-slider {
-	height: auto;
-	width: 100%;
-	.center();
-	border: 0px solid #fff;
 
-	.item {
-		width: 100%;
-		height: auto;
-
-		img {
-			width: 100%;
-			min-height: 220px;
-		}
-	}
-
-	.owl-controls {
-		height: 0;
-		width: 100%;
-	
-		.owl-pagination {
-			position: relative;
-			bottom: 40px;
-			text-align: center;
-
-			.owl-page {
-				display: inline-block;
-				.square(13px;);
-				opacity: 0.3;
-				.transition(.3s all ease);
-				color: #fff;
-				margin: 0 8px;
-
-				&:before {
-					display: block;
-					content: "\e90b";				
-					.square(13px);
-					font-size: 13px;
-					font-family: 'icomoon';
-					color: #fff;
-				}
-
-				&:hover {
-					opacity: 1;
-				}
-
-				&.active {				
-					opacity: 1;
-
-					&:before {
-						content: "\e90c" !important;					
-					}							
-				}			 
-			}
-		}
-
-		.owl-prev,
-		.owl-next {
-			display: block;
-			color: transparent;
-			.size(225px;50px);
-			padding: 16px 30px 15px 30px;
-			background: fade(#000, 15%);			
-			position: absolute;
-			top: 50%;
-			margin-top: -25px;
-			.transition (.3s all ease);
-
-			&:hover {background: fade(#000, 50%);}
-
-			&:before {
-				display: inline-block;
-				font-size: 19px;
-				font-family: 'icomoon';
-				vertical-align: middle;				
-				color: #fff;
-				position: absolute;
-				top: 50%;
-				margin-top: -12px;				
-			}
-			@media(max-width:850px) {width: 190px;}
-			@media(max-width:800px) {width: 125px;}
-
-
-
-			@media(max-width:700px) {
-				background: transparent;
-				width: 50px;
-			}			
-		}
-
-		.owl-prev {
-			left: 0;
-
-			&:before {
-				content: "\e900";
-				left: 30px;
-			}
-		}
-		.owl-next {
-			right: 0;
-
-			&:before {
-				content: "\e901";
-				right: 30px;
-			}
-		}
-	}
-
-	.owl-item.active {		
-
-		.slider-title {
-			-webkit-animation-name: bounceInLeft;
-			animation-name: bounceInLeft;
-			-webkit-animation-duration: 1.5s;
-			animation-duration: 1.5s;
-			-webkit-animation-fill-mode: both;
-			animation-fill-mode: both;
-		}
-
-		.text-prev {
-			-webkit-animation-name: zoomIn;
-			animation-name: zoomIn;
-			-webkit-animation-duration: 1.5s;
-			animation-duration: 1.5s;
-			-webkit-animation-fill-mode: both;
-			animation-fill-mode: both;
-		}
-		.text-next {
-			-webkit-animation-name: zoomIn;
-			animation-name: zoomIn;
-			-webkit-animation-duration: 1.5s;
-			animation-duration: 1.5s;
-			-webkit-animation-fill-mode: both;
-			animation-fill-mode: both;
-		}
-
-		.details_white {
-			-webkit-animation-name: bounceInRight;
-			animation-name: bounceInRight;
-			-webkit-animation-duration: 1.5s;
-			animation-duration: 1.5s;			
-			-webkit-animation-fill-mode: both;
-			animation-fill-mode: both;
-		}
-	}
-
-	.text-prev,
-	.text-next {
-		font-style: normal;
-		color: #fff;
-		font-size: 12px;
-		font-family: 'OpenSans';
-		font-weight: 400;
-		text-transform: uppercase;
-		position: absolute;	
-		height: 50px;
-		top: 50%;
-		margin-top: -25px;
-		line-height: 50px;
-		z-index: 10;
-
-		@media(max-width:800px)	{display: none;}
-	}
-
-	.text-prev {left: 65px;}
-	.text-next {right: 65px;}
-
-	@media(max-width:700px) {width: 99%!important;}
-	@media(min-width:1920px) {border: 10px solid transparent;}
-}
 
 .advantages {
 	padding: 61px 0px 54px 0px;
@@ -195,8 +19,8 @@
 			.img-block {
 				display: inline-block;
 				width: 210px;
-		    	height: 225px;
-		    	position: relative;
+				height: 225px;
+				position: relative;
 
 				&:before {
 					content: "\e90a";
@@ -212,15 +36,15 @@
 				}
 
 				i {
-				    font-size: 62px;
-				    line-height: 80px;
-				    position: absolute;
-				    left: 50%;
-				    margin-left: -33px;
-				    top: 50%;
-				    margin-top: -31px;
-				    color: #fff;
-				    .transition(0.3s all ease);
+					font-size: 62px;
+					line-height: 80px;
+					position: absolute;
+					left: 50%;
+					margin-left: -33px;
+					top: 50%;
+					margin-top: -31px;
+					color: #fff;
+					.transition(0.3s all ease);
 				}
 
 				.icon-tie {
@@ -305,7 +129,7 @@
 		.size(225px;586px);
 		position: absolute;
 		bottom: -41px;
-    	right: 0px;
+		right: 0px;
 		background: url('@{rootUrl}dummy.png') no-repeat;
 		background-size: contain;
 
@@ -339,8 +163,8 @@
 
 		img {
 			position: absolute;
-	    top: -15px;
-    	left: -153px;
+		top: -15px;
+		left: -153px;
 		}
 
 		@media(max-width:1250px) {
@@ -527,7 +351,7 @@
 			font-style: normal;
 			position: relative;
 			line-height: 22px;
-	    	padding-top: 5px;
+			padding-top: 5px;
 
 			&:hover {text-decoration: underline;}			
 		}
@@ -536,8 +360,8 @@
 			display: block;
 			content: "\e902";
 			font-family: "icomoon";
-		  	font-size: 23px;
-		  	color: inherit;
+			font-size: 23px;
+			color: inherit;
 			margin-top: 9px;
 			opacity: 0.5;
 			font-style: normal;
@@ -586,30 +410,30 @@
 	.slick-next {	 
 		left: 651px;  
 
-	    &:before {content: "\e901"!important;}
+		&:before {content: "\e901"!important;}
 	}
 	.slick-prev {
-    left: 371px;    
+	left: 371px;    
 
-    &:before {content: "\e900"!important;}
+	&:before {content: "\e900"!important;}
 	}
 
 	.slick-next,
 	.slick-prev {
 		position: absolute;
-	    z-index: 10;
-	    .square(50px);
-	    .transition(0.3s all aese);
+		z-index: 10;
+		.square(50px);
+		.transition(0.3s all aese);
 
-	    &:hover {background: fade(#fff, 30%)}
+		&:hover {background: fade(#fff, 30%)}
 
-	    &:before {
-	    	font-family: 'icomoon'!important;
-	    	position: absolute;
-	    	left: 50%;
-		    top: 50%;
-		    margin: -10px 0 0 -10px;
-	    }
+		&:before {
+			font-family: 'icomoon'!important;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin: -10px 0 0 -10px;
+		}
 	}
 
 	@media(max-width:1200px) {
