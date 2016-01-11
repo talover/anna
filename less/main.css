@@ -1976,17 +1976,18 @@ html.mm-opening #mob-btn:after {
   background: #000 !important;
 }
 .fancybox-close {
-  width: 30px;
-  height: 30px;
-  background: #000;
-  text-decoration: none;
-  color: #fff;
+  width: 30px !important;
+  height: 30px !important;
+  background: #000!important;
+  text-decoration: none!important;
+  color: #fff!important;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
   top: -38px !important;
   right: -48px !important;
+  background-image: none!important;
 }
 .fancybox-close:before {
   content: "\e912";
@@ -2197,7 +2198,7 @@ html.mm-opening #mob-btn:after {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 10px solid #fff;
+  border: 0px solid #fff;
 }
 .main-slider .item {
   width: 100%;
@@ -2372,9 +2373,9 @@ html.mm-opening #mob-btn:after {
     width: 99%!important;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 1920px) {
   .main-slider {
-    border: 0px solid transparent;
+    border: 10px solid transparent;
   }
 }
 .advantages {
@@ -2814,13 +2815,20 @@ html.mm-opening #mob-btn:after {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   border: 10px solid rgba(255, 255, 255, 0.3);
   top: 0;
   opacity: 0;
   -webkit-transition: 0.3s all aese;
   -o-transition: 0.3s all aese;
   transition: 0.3s all aese;
+}
+.photo-slider .item .fancybox-thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
 }
 .photo-slider .item:hover .wrap {
   opacity: 1;

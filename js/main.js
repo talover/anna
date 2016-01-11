@@ -67,6 +67,18 @@ $(document).ready(function() {
 
 	//fancybox 
 
+	$(".fancybox-thumb").fancybox({
+		theme : 'light',
+
+		helpers : {
+			thumbs : true,
+			
+		  overlay: {
+				locked: false
+			}	
+		}
+	});
+
 	$(".fancybox-popup").click(function(e){
 		e.preventDefault();
 	})
@@ -75,6 +87,7 @@ $(document).ready(function() {
 		wrapCSS:'popup-wrap',
 		padding:0
 	});
+
 
 	
 	// Sliders

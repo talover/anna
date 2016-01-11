@@ -1,9 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6be9b806-63f5-4e85-9408-ec4d7f4b35ae" name="Default" comment="">
+    <list default="true" id="6be9b806-63f5-4e85-9408-ec4d7f4b35ae" name="Default" comment="final">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/grabbing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/bg_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/bride_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/dummy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/fav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/insta-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/nav_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/siluet1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/siluet2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/fonts/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/fonts/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/fonts/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/bootstrap-3.3.6/fancybox_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/grabbing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/images/fav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-3.3.6/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-3.3.6/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-3.3.6/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-3.3.6/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-3.3.6/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-3.3.6/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/Untitled Set.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/arrow_left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/arrow_right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/breaker.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/carret.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/dummy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/Read Me.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/demo-files/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/demo-files/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/fonts/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/selection.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/icomoon/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/main_logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/menu_btn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/needle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/pen.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/phone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/rhombus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/rhombus_bg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/rhombus_fill.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/rhombus_small.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/ruler.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/sand_clock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/slider_arrow_right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/soc_fb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/soc_in.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/soc_tw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/soc_vk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/tie.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/view_down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/svg/view_up.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jquery.fancybox-thumbs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jquery.mmenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery.fancybox-thumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery.mmenu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jquery.fancybox-thumbs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jquery.mmenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jquery.fancybox.css" afterPath="$PROJECT_DIR$/css/jquery.fancybox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/jquery.fancybox.js" afterPath="$PROJECT_DIR$/js/vendor/jquery.fancybox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/jquery.fancybox.css" afterPath="$PROJECT_DIR$/less/jquery.fancybox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.css" afterPath="$PROJECT_DIR$/less/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/popup.less" afterPath="$PROJECT_DIR$/less/modules/popup.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pages/main-page.less" afterPath="$PROJECT_DIR$/less/pages/main-page.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_open.html" afterPath="$PROJECT_DIR$/service_open.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.html" afterPath="$PROJECT_DIR$/styles.html" />
     </list>
     <ignored path="anna.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,8 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,8 +204,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anna1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +335,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452415173297</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="final+menu">
+      <created>1452415793606</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1452415793606</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -316,9 +411,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="talover" />
-    <MESSAGE value="final" />
     <MESSAGE value="final+menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="final+menu" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -672,6 +767,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17133258">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vendor/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
