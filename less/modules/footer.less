@@ -43,15 +43,15 @@
 		text-align: center;
 
 		li {
-		  display: inline-block;
-		  list-style: none;
-		  .transition(.3s all ease);
-		  font-size: 11px;
-		  color: #fff;
-		  text-transform: uppercase;
-		  position: relative;
+			display: inline-block;
+			list-style: none;
+			.transition(.3s all ease);
+			font-size: 11px;
+			color: #fff;
+			text-transform: uppercase;
+			position: relative;
 
-		  a {
+		  	a {
 				display: block;
 				text-decoration: none;
 				color: inherit;
@@ -68,8 +68,21 @@
 				&:hover {
 					text-decoration: underline;
 				}
-		  }
-	  }
+		  	}
+
+		  	@media (max-width: 700px) {
+				width: 50%;
+				float: left;
+				padding: 0 5px;
+
+				a {
+					font-size: 11px;
+					padding: 15px 5px 15px 15px;
+					text-align: left;
+					letter-spacing: 0;
+				}			
+			}			
+	  	}
 	}
 }
 

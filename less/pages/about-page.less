@@ -73,9 +73,7 @@
 		}
 	}
 
-	@media(max-width:500px) {
-		padding-top: 181px;
-	}
+	@media(max-width:480px) {padding-top: 100px;}
 }
 
 .galery-wrap {
@@ -126,18 +124,26 @@
 
 	.white_wrap {padding: 10px;}
 
-	.form {margin: 0 auto;}
+	.form {
+		margin: 0 auto;
 
-	&:before {
-		content: '';
-		display: block;
-		width: 225px;
-		height: 586px;
-		position: absolute;
-		bottom: -39px;
-		right: 117px;
-		background: url('http://localhost/anna1/less/images/dummy.png') no-repeat;
-
-		@media(max-width:992px) {display: none;}
+		@media(max-width:380px) {width: 100%}
 	}
+
+	.main-container {
+		position: relative;
+
+		&:before {
+			content: '';
+			display: block;
+			width: 225px;
+			height: 586px;
+			position: absolute;
+			bottom: -89px;
+			right: 0;
+			background: url('images/dummy.png') no-repeat;
+
+			@media(max-width:992px) {display: none;}
+		}
+	}	
 }

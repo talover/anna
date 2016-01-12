@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6be9b806-63f5-4e85-9408-ec4d7f4b35ae" name="Default" comment="final">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/modules/svg-slider.less" />
+    <list default="true" id="6be9b806-63f5-4e85-9408-ec4d7f4b35ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.css" afterPath="$PROJECT_DIR$/less/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/breadcrumbs.less" afterPath="$PROJECT_DIR$/less/modules/breadcrumbs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/footer.less" afterPath="$PROJECT_DIR$/less/modules/footer.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/forms.less" afterPath="$PROJECT_DIR$/less/modules/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/svg-slider.less" afterPath="$PROJECT_DIR$/less/modules/svg-slider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/modules/titles.less" afterPath="$PROJECT_DIR$/less/modules/titles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pages/about-page.less" afterPath="$PROJECT_DIR$/less/pages/about-page.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pages/main-page.less" afterPath="$PROJECT_DIR$/less/pages/main-page.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/pages/service_open.less" afterPath="$PROJECT_DIR$/less/pages/service_open.less" />
     </list>
     <ignored path="anna.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -309,7 +316,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452537193652</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="final">
+      <created>1452544554318</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1452544554318</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
